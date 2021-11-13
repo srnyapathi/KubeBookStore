@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: KubeBookStore
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: mongoadmin
+      password: password
