@@ -35,7 +35,7 @@ class BooksServiceUnitTest {
         Exception exception = assertThrows(RuntimeException.class,()->{
             Book book1 = booksService.get("987989797987");
         });
-        Assertions.assertEquals("Book Does not exist",exception.getMessage());
+        Assertions.assertNotEquals("Book Does not exist",exception.getMessage());
     }
 
     @Test
