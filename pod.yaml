@@ -3,10 +3,9 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: Kube-bookstore
-  name: Kube-bookstore
+    run: kube-bookstore
+  name: kube-bookstore
 spec:
   containers:
     - image: nsivaram90/kubebookstore
       name: Kube-bookstore
-      resources: {}
