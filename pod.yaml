@@ -8,4 +8,4 @@ metadata:
 spec:
   containers:
     - image: nsivaram90/kubebookstore
-      name: Kube-bookstore
+      name: kube-bookstore
